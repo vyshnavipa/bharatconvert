@@ -1,0 +1,120 @@
+select {
+    width: 300px;
+    height: 2.3em;            
+    border-radius: 10px;
+}
+option 
+{
+    text-align: center;
+}
+#convert
+{
+    height: 2.5em;
+    margin-top: 20px;
+    background-color:navy;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:white;
+    opacity:0.5;
+}
+#reset
+{
+    margin-top:25px;
+    background-color:black;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:white;
+    opacity:0.5;       
+}
+#convert:hover,#reset:hover
+{
+    background-color:red;
+}
+h1
+{
+    font-style: oblique;
+    color:black;
+}
+label
+{
+    color:black;
+}
+#Temp
+{
+    margin-left: 450px;
+    margin-right: 600px;
+    margin-top :5px;
+    width:350px;
+    background-color:cadetblue;
+    padding-left:50px;
+    padding-bottom:50px;
+    border-radius: 40px;
+    box-shadow: inset 0px 5px 10px rgba(0,0,0,0.5);
+}
+input
+{
+    width:300px;
+    height:2.3em;
+    border-radius: 10px;
+}
+body
+{
+  background-image: url("https://media.istockphoto.com/id/1217507110/photo/hot-summer-or-heat-wave-background.jpg?s=612x612&w=0&k=20&c=JeNJBv26e0O1sTMPynNuxA9IjVmHC7fYa_qwh7XMLCA=");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .popup .popuptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    float: left;
+    margin-left: -40px;
+  }
+  
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: purple;
+    box-shadow: 3px 3px 3px 3px solid purple;
+  }
+  
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
